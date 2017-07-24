@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollableLayout"><attr format="dimension" name="scrollable_maxScroll"/><attr format="boolean" name="scrollable_scrollerFlywheel"/><attr format="integer" name="scrollable_considerIdleMillis"/><attr format="boolean" name="scrollable_defaultCloseUp"/><attr format="float" name="scrollable_friction"/><attr format="integer" name="scrollable_closeUpAnimationMillis"/><attr format="reference" name="scrollable_closeUpAnimatorInterpolator"/><attr format="boolean" name="scrollable_autoMaxScroll"/><attr format="reference" name="scrollable_autoMaxScrollViewId"/></declare-styleable>
+</resources>

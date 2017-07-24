@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitXY"
+    android:tint="#3f000000"
+    android:src="@drawable/flash_screen2"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Designed &amp; Developed by Skyline labs"
+        style="@android:style/TextAppearance.DeviceDefault.Small"
+        android:typeface="serif"
+        android:textColor="#fff"
+        android:gravity="center_horizontal|bottom"
+        android:paddingBottom="10dp"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"
+        android:elevation="5dp"
+        android:id="@+id/logo_fab"
+        android:layout_centerInParent="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reveal_view"
+        android:visibility="invisible"
+        android:background="#fff"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:elevation="6dp"
+        android:padding="1dp"
+        android:scaleX="2.0"
+        android:scaleY="2.0"
+        android:layout_margin="1dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

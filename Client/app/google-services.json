@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "71724916400",
+    "firebase_url": "https://cafe-katta.firebaseio.com",
+    "project_id": "cafe-katta",
+    "storage_bucket": "cafe-katta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71724916400:android:0211dd139d12a05d",
+        "android_client_info": {
+          "package_name": "com.skyline.kattaclientapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71724916400-nn3un6bp9bba6fr8lo9hi8dkh6d7l2sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjQk9oa5Bi9ljdE8UPK74nb-U7pTdJ87c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71724916400:android:f6bc7d3aaffd058e",
+        "android_client_info": {
+          "package_name": "com.skyline.kattaadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71724916400-nn3un6bp9bba6fr8lo9hi8dkh6d7l2sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjQk9oa5Bi9ljdE8UPK74nb-U7pTdJ87c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

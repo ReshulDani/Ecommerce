@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Katta AdminApp</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="past_order_search_hint">Enter OrderId or UserName</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="food_category">
+        <item>North Indian</item>
+        <item>South Indian</item>
+        <item>Chinese</item>
+        <item>Chat</item>
+        <item>Snacks</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>First Year BTech</item>
+        <item>Second Year BTech</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+        <item>First Year MTech</item>
+        <item>Second Year MTech</item>
+    </string-array>
+    <string-array name="branch_array">
+        <item>Computer</item>
+        <item>Mechanical</item>
+        <item>IT</item>
+        <item>ENTC</item>
+        <item>Electrical</item>
+        <item>Civil</item>
+        <item>Production</item>
+        <item>Instrumentation</item>
+        <item>Metallurgy</item>
+        <item>Planning</item>
+    </string-array>
+    <string-array name="block_array">
+        <item>H</item>
+        <item>I</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>C</item>
+        <item>D</item>
+        <item>J</item>
+        <item>GHB</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <!-- Filter is based on position of item in array-->
+    <string-array name="status_filter">
+        <item>All</item>
+        <item>Yet To Be Accepted</item>
+        <item>Preparing</item>
+        <item>Prepared</item>
+    </string-array>
+
+</resources>

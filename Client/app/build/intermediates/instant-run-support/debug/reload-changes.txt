@@ -1,0 +1,9 @@
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\MenuListAdapter$1$override.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\MenuListAdapter$override.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\SignupActivity$override.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\MenuFragment$override.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\MenuListAdapter$ViewHolder$override.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\MenuListAdapter$2$override.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\MenuListAdapter$4$override.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\skyline\kattaclientapp\MenuListAdapter$3$override.class

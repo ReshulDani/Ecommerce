@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skyline.kattaclientapp"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.skyline.kattaclientapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.skyline.kattaclientapp.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.skyline.kattaclientapp.ACRAClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.skyline.kattaclientapp.SignupActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.skyline.kattaclientapp.MainActivity"
+            android:label="Menu Card"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.skyline.kattaclientapp.OrderPlaceActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.skyline.kattaclientapp.OrderViewActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.skyline.kattaclientapp.OrderDetailsViewActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.skyline.kattaclientapp.App_intro"
+            android:screenOrientation="sensorPortrait" />
+
+        <!--
+            <intent-fliter>
+                <action android:name="OPEN_ORDER_DETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-fliter>
+        -->
+
+        <service android:name="com.skyline.kattaclientapp.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.skyline.kattaclientapp.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.skyline.kattaclientapp.TermsAndCondition" />
+        <activity android:name="com.skyline.kattaclientapp.Account" />
+        <activity
+            android:name="com.skyline.kattaclientapp.Login"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.skyline.kattaclientapp.Flashscreen"
+            android:screenOrientation="sensorPortrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.skyline.kattaclientapp.News" />
+        <activity android:name="com.skyline.kattaclientapp.AboutUs" />
+        <activity android:name="com.skyline.kattaclientapp.Help" />
+        <activity android:name="com.skyline.kattaclientapp.AboutDevelopers" />
+        <activity android:name="com.skyline.kattaclientapp.Feedback" />
+        <activity android:name="com.skyline.kattaclientapp.Payment" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.skyline.kattaclientapp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.skyline.kattaclientapp" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+ <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="org.acra.dialog.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <service
+            android:name="org.acra.sender.SenderService"
+            android:exported="false"
+            android:process=":acra" />
+    </application>
+
+</manifest>

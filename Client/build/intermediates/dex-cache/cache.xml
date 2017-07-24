@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\MIHIR\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_512620db99399e172297350a03805f86ca2eb93e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\me.relex\circleindicator\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4a6c347f01da9077fc9d7934974260d904354f77">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.relex-circleindicator-1.2.1_c3c206abf600e3ad3d45c178e51bad3e20738643\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.0_e852d81f341c96b5d458968abc0c8a172b1e902f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library-material\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.weiwangcn.betterspinner-library-material-1.1.0_f88b06b31062efe1f4fc9a8a4f5fdc8bb432e5ea\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_2f1ec73a087feed32e4694960ed64149f4a21cab\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_5cb730ce7ba4675ce06917043f10df87cb7afae7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_1fe07f1a744e015797d59aa0484065996d715bdf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_149a6e6bd92e0f0b99b5c01c907e9a9969a74566\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_b19efec1b3651151f31969ce0c8aceae864498fb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_a9ad8a61b4d3c9fd0000d63cc76a9068cce68f71\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_49fbd8e0da8fc6cc0658b31f4d58547706dc2ce1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.0.3_e22885bf1685ff4f4761bbd9d0ebf97b4abe081a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_078df4622456a9f538bac4261c25871b45184c57\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_c166cd0bc314f23bd0230f26a74238571a968ba2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_65455ddfcda987a12235807b127996edba1b38a7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_ddf08022d6a00f90ac482bcdf95a9862edd1e6d4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_6bac713d330b5c360f4879ce205f89dd0ea72412\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_8d12073c809b5d5a117049cc674b4bbe009da706\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_4fce8aac6ed745bb6883b2da6b01e6ec0306ccc5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.miguelcatalan\materialsearchview\1.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="918e3e9514d90e54421b674cf0c95044f4e155ad">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.miguelcatalan-materialsearchview-1.4.0_5523942ee072d08120a33622eb9bb808d914ec52\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_b6ba7a40ea55d0ce77817544170e0278687ddab1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\libs\PGSDK_v1.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="957d299c4769678a84ac41b5a05c970511bf5254">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\2\PGSDK_v1.0_c88c7331c253d190c5a07dd15e7033bfd13cf12c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\ch.acra\acra\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d03cbe00a6703cfa62ae868707af59d41aff2140">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\ch.acra-acra-4.9.0_60d451e19d0a096b2320b6995a2541639fd9c015\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_46e1afada4eeb0fe5186e79e12d5a883d49a5b46\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_2bbf4a602bf805eabf37b5c42d66edf6c1531999\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_bece73390139224e750a57b9c50a005784569152\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5cefb02127dafabc8eca834d5d6c037655bc41f9">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e04dd118bc0d081f0b63fc502b79d121ca8953c0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b7d8416a7ee63d30723793812b49a45aff298e4f">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3e115a8a237eba1673b87226e795bcbe180574de\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_ccf5463193f108f1a44f7496d13218446d072437\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_58e24e2ba550596a9c2f27ceca9d633999db678f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\ru.noties\scrollable\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d8f3a38a0b68b3a62e0cb1136e71d8e9fa6346ed">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\ru.noties-scrollable-1.2.0_75a733a9a8af8d7a32a3781550cae7696feeea98\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0035a62d53502927cab2c641e116424c1665351e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_5e88a334c925ab042ca54a9292b35d5677127383\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_14ec71cddcb4390a490d9b98aeeb97147035d46a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_69e5ecf6f90ae2afeea12d65cf9340967ac21bc0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e48931e60d051f736c841c78e0889e2f755c6241\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_c248f2f6087eeb88ba3ae84293e3da02b69362f3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_3a2dd9a04776a7c0f5f26b5386b5c5ae6bd248c4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_194ae8f4d0d4919ed44f7205b29671683d3e56e0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_3b3f57618168f1045a78d0ecf77414b94cfad33c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_461dbd9414695f2df898ba3f9763b7c28e62cfdc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\MIHIR\AndroidStudioProjects\KattaClientApp_final\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_ded514ff883c2f0c968a5a98a95c646cbf13355a\classes.dex" />
+    </item>
+
+</items>

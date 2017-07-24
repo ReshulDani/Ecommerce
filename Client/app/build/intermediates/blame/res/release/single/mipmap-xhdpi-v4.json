@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\MIHIR\\AndroidStudioProjects\\KattaClientApp_final\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\icon.png",
+        "source": "C:\\Users\\MIHIR\\AndroidStudioProjects\\KattaClientApp_final\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\MIHIR\\AndroidStudioProjects\\KattaClientApp_final\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\MIHIR\\AndroidStudioProjects\\KattaClientApp_final\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/payment_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.skyline.kattaclientapp.Payment">
+    <!--
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash On delivery"
+            android:layout_margin="8dp"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="#000"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:id="@+id/payment_CashOnDelivery" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:padding="3dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/payment_paytm"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:text="Pay via Paytm"
+            android:textColor="#000" />
+    </android.support.v7.widget.CardView>
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Redirecting to Paytm.Please Wait..."
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="173dp" />
+</RelativeLayout>

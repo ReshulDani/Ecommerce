@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">Cafe Tea Time</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_title">App has crashed</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="year_array">
+        <item>First Year BTech</item>
+        <item>Second Year BTech</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+        <item>First Year MTech</item>
+        <item>Second Year MTech</item>
+    </string-array>
+    <string-array name="branch_array">
+        <item>Computer</item>
+        <item>Mechanical</item>
+        <item>IT</item>
+        <item>ENTC</item>
+        <item>Electrical</item>
+        <item>Civil</item>
+        <item>Production</item>
+        <item>Instrumentation</item>
+        <item>Metallurgy</item>
+        <item>Planning</item>
+    </string-array>
+    <string-array name="block_array">
+        <item>H</item>
+        <item>I</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>C</item>
+        <item>D</item>
+        <item>J</item>
+        <item>GHB</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+
+    <string name="paytm_channel_id">WAP</string>
+    <string name="paytm_industry_type_id">Retail</string>
+    <string name="paytm_website">cafewap</string>
+    <string name="paytm_theme">merchant</string>
+    <string name="paytm_merchant_id">CafeTe37672134657957</string>
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-5829738905898619/4083298689</string>
+
+
+
+    <string name="about_us">
+        Cafe Tea Time App is a platform for customers to see the available menu at any point of time. This will also help customers in quick decision making to finalize the menu. Placing order through app before they reach would help in saving waiting time and queue. Order delivery and cashless payments would be made easy through wallet payments and payment gateway.
+    </string>
+    <string name="terms_and_condition">
+Welcome to Cafe Tea Time. If you continue to browse and use this app you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern Cafe Tea Time\'s relationship with you in relation to this app.
+
+\nThe term \'Cafe Tea Time\' or \'us\' or \'we\' refers to the owner of the App. The term \'Users\' or \'Customers\' or \'Students\' or \'Your\' refers to the user or viewer of our app.
+
+\nTHE USE OF THIS APP IS SUBJECT TO THE FOLLOWING TERMS OF USE:
+
+\nThe content of the pages of this App is for your general information and use only. It is subject to change without notice.
+\nNeither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this app for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
+\nYour use of any information or materials on this app is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this app meet your specific requirements.
+\nThis app contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
+\nAll trademarks reproduced in this app which are not the property of, or licensed to, the operator are acknowledged on the app.
+\nUnauthorized use of this app may give rise to a claim for damages and/or be a criminal offence.
+\nFrom time to time this app may also include links to other websites/apps. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s)/app(s). We have no responsibility for the content of the linked website(s)/app(s).
+\nYou may not create a link to this app from another app or document without Cafe Tea Time\'s prior written consent.
+\nYour use of this app and any dispute arising out of such use of the app is subject to the laws of India or other regulatory authority.
+\n"We as a merchant shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time"
+
+\n\nCONDITIONS RELATING TO THE SALE OF PRODUCTS TO YOU
+
+\nThis section deals with conditions relating to the sale of products on the app by us to you.
+
+\nOur Contract
+\nYour order is an offer to us to buy the product(s) in your order. When you place an order to purchase a product from us, you will receive an order confirmation of your order with order id and containing the details of your order. The Order Confirmation with order id is acknowledgement that we have received your order, and does not confirm acceptance of your offer to buy the product(s) ordered. We only accept your offer, and conclude the contract of sale for a product ordered by you.
+
+\nYour contract is with us (the Sellers) and you confirm that the product(s) ordered by you are purchased for your internal / personal purpose and not for re-sale. You authorize us to declare and provide declaration to any governmental authority on your behalf stating the aforesaid purpose of the products ordered by you on the app.
+
+\nYou can not cancel or modify your order for a product. ‘Order id created’ would mean that your order has been placed with us, hence cannot be cancelled/modified.
+
+\nPlease note that we sell products only in quantities which correspond to the typical needs of a customer. This applies both to the number of products ordered within a single order and the placing of several orders for the same product where the individual orders comprise a quantity typical for a normal person.
+\n
+\nPricing and availability
+\nWe list availability information for products sold by us on the app, including on each product information page. Beyond what we say on that page or otherwise on the app, we cannot be more specific about availability. Please note that dispatch estimates are just that. They are not guaranteed dispatch times and should not be relied upon as such. As we process your order, you will be informed if any products you order turn out to be unavailable.
+\n
+\nTaxes
+\nYou shall be responsible for payment of all fees/costs/charges associated with the purchase of products from us and you agree to bear any and all applicable taxes/VAT, cesses etc. levied thereon.
+\n
+\nAlteration or Amendments to the Conditions
+\nWe reserve the right to make changes to our policies, and these Conditions of Sale at any time. You will be subject to the policies and Conditions of Sale in force at the time you order goods from us, unless any change to those policies or these conditions is required to be made by law or government authority (in which case it will apply to orders previously placed by you). If any of these conditions is deemed invalid, void, or for any reason unenforceable, that condition will be deemed severable and will not affect the validity and enforceability of any remaining condition.
+\n
+\nEvents beyond our reasonable control
+\nWe will not be held responsible for any delay or failure to comply with our obligations under these conditions if the delay or failure arises from any cause which is beyond our reasonable control. This condition does not affect your statutory rights
+\n
+\nGoverning Law and Jurisdiction
+\nThese conditions are governed by and construed in accordance with the laws of India, and the application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. You agree, as we do, to submit to the exclusive jurisdiction of the courts at Pune.
+
+    </string>
+    
+    <string name="privacy_policy">This privacy policy sets out how Cafe Tea Time uses and protects any information that you give us when you use this App. The term \'Cafe Tea Time\' or \'us\' or \'we\' refers to the owner of the App. The term \'Users\' or \'Customers\' or \'Students\' or \'Your\' refers to the user or viewer of our app.
+
+\nWe are committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this app, then you can be assured that it will only be used in accordance with this privacy statement.
+
+\nThis Privacy Policy has been compiled to better serve those who are concerned with how their \'Personally Identifiable Information\' (PII) is being used online. PII, as used in Indian Privacy Law and Information Security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our Privacy Policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your PII in accordance with our app.
+
+\nWe may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 1st June 2016.
+
+\n\nWHAT WE COLLECT
+
+\nWe may collect the following information:
+\nname
+\ncontact information including email address
+\ndemographic information such as postcode, preferences and interests
+\nother information relevant to customer surveys and/or offers
+
+\n\nWHAT WE DO WITH THE INFORMATION WE GATHER
+
+\nWe require this information to understand your needs and provide you with a better service, and in particular for the following reasons:
+\nInternal record keeping.
+\nWe may use the information to improve our products and services.
+\nTo personalize user\'s experience and to allow us to deliver the type of content and product offerings in which you are most interested.
+\nTo quickly process your transactions.
+\nWe may periodically send promotional notifications about new products, special offers or other information which we think you may find interesting using the email address which you have provided.
+\nFrom time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customize the website according to your interests.
+\n\nSecurity:
+\nWe are committed to ensuring that your information is secure. In order to prevent unauthorized access or disclosure we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.
+
+\n\nHOW DO WE PROTECT VISITOR INFORMATION?
+
+\nOur app is scanned on a regular basis for security holes and known vulnerabilities in order to make your visit to our app as safe as possible.
+
+\n\nWE USE REGULAR MALWARE SCANNING.
+
+\nYour personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive/credit information you supply is encrypted via Secure Socket Layer (SSL) technology.
+\nWe implement a variety of security measures when a user places an order to maintain the safety of your personal information.
+\nAll payment transactions are processed through a gateway provider and are not stored or processed on our servers.
+
+\n\nCONTROLLING YOUR PERSONAL INFORMATION
+
+\nWe will not use your personal information for direct marketing purposes.
+\nWe will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.
+\nYou may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please write to contactcafett@gmail.com.
+\nIf you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect.
+
+\n\nLINKS TO OTHER WEBSITES
+
+\nOur website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.
+    </string>
+
+    <string name="disclaimer_policy">
+The information contained in this app is for general information purposes only. The information is provided by Cafe Tea Time and while we endeavor to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the app or the information, products, services, or related graphics contained on the app for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+
+\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arise out of, or in connection with, the use of this app.
+
+\nThrough this app you are able to link to other apps which are not under the control of Cafe Tea Time. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
+
+\nEvery effort is made to keep the app up and running smoothly. However, Cafe Tea Time takes no responsibility for, and will not be liable for, the app being temporarily unavailable due to technical issues beyond our control.
+    </string>
+
+    <string name="shipping_and_delivery_policy">
+1.        Cafe Tea Time ships all orders using cafe manpower only.
+\n2.        To retain the freshness of the products, we do not stock the products in bulk. Hence once the order is placed depending on its availability we would be shipping the product.
+\n3.        In situations outside of Cafe Tea Time’s control (Product unavailability, Public holidays, Strikes, Natural Disasters etc.), there could be a delay in shipping the Order.
+\n4.        Products will be delivered to the address mentioned by the customer while placing the order. Cafe Tea Time will not be responsible for delivery delays in case an incorrect or incomplete address was provided.
+\n5.        The Customer can track their order on the Cafe Tea Time app using the contact number provided by us.
+\n6.        Delayed delivery for whatever reason shall not entitle the customer to any damages or compensation. Refund or replacement would be done based on the Refund and Replacement policy given on the Cafe Tea Time app.
+\n7.        In case of damage to the food items due to incorrect handling by manpower or any other issues, please call us with details of the damage immediately to Customer Service number. A decision on refund will be taken after review by Cafe Tea Time. We will be sending out food items well within the expiry date of the items, in case the delivery was delayed and the items are in bad condition, we can process a refund or reorder based on customer\'s preference but in cash. No claims can be made for refund for any other reasons.
+\n8.        For any changes to the Order, please contact us by phone or email as soon as possible. Cafe Tea Time will try and accommodate the changes as much as possible depending on order status and other parameters. No changes would be accepted once the order has been shipped.
+    </string>
+
+    <string name="refund_and_cancellation_policy">
+        Cafe Tea Time has established a fair and reasonable Refund and Cancellation policy:
+\nFor Refund/Replacement and Cancellation requests, please contact the Cafe Tea Time Customer Service number.
+\nCafe Tea Time will take a decision on the cancellation request based on the current order status among other factors. For example, if a food preparation has been initiated or if the order has already been shipped, it will not be possible to cancel the order.
+\nCancellation requests will also not be approved for products that the Cafe Tea Time has obtained for special occasions like Holi, Diwali, Valentine’s Day etc. These are limited occasion offers and therefore cancellations are not possible.
+\nRefund/Replacement requests will be considered only if the request is made to the Cafe Tea Time customer service team immediately. The reasons for example could be an incorrect item was shipped, or the product has gone bad. It is the responsibility of the customer to provide adequate information (including photographs) to help Cafe Tea Time take a decision. There will be no refund if the taste of the product is not to the customer’s liking or if the customer thinks it is not good enough as long as the product is within expiry date. Refund would be in cash.
+\nIn case of receipt of damaged product, please report the same to our Customer Service team immediately.Cafe Tea Time will provide refund/replacement to the customer in case of a positive decision.
+\nFor product replacements, the customer will be shipped a new packet of the same product. In case the same product is not available, an equivalent product will be shipped after discussion with the customer.
+\nCafe Tea Time will usually process refunds immediately after a refund request is approved.
+    </string>
+    
+    <string name="contact_us">
+        Cafe Tea Time
+\nAddress - Flat #1, Davbindu Apartment, Veerbhadra Nagar, Baner, Pune - 45
+\nMob.  - 9762001731 , 8484066285
+\nEmail - contactcafett@gmail.com
+    </string>
+    <string name="process_flow">
+        1. Signup using email address, Mention your Block/Room correctly for delivery.
+        \n2.Login using the app .All available menu items would be visible then.
+        \n3.To order items click on the add button and decide the quamtity, click on proceed to see the final bill.
+        \n4.Confirm all the order details and then press proceed button to place your order.
+        \n5.After successfull payment your order would be placed
+        \n6.You can track your order in "Orders", progress notifications would be sent to you.
+    </string>
+    <string name="developer_disclaimer">
+        Skyline labs is app development partner for cafe katta. We(Skyline labs) take no responsibility for any issues that arise from use of the app related to the service offered by Cafe katta, food quality, delivery time, app crashes, payment and refunds. All the stated and related issues shall be a responsibility of and addressed by Cafe katta.
+    </string>
+    <string name="hint_year">Year</string>
+    <string name="hint_branch">Branch</string>
+    <string name="hint_block">Block</string>
+    <string name="skylinelabs_link">www.skylinelabs.in</string>
+    <string name="skylinelabs_email">skylinelabs.tech@gmail.com</string>
+    <string name="cafe_email">contactcafett@gmail.com</string>
+    <string name="cafe_website">www.cafeteatime.in</string>
+</resources>

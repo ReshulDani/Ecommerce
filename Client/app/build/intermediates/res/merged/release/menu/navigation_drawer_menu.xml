@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="Menu Card" />
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="News" />
+
+        <item
+            android:icon="@drawable/ic_help_black_24dp"
+            android:id="@+id/nav_help"
+            android:title="Help" />
+    </group>
+    <group android:id="@+id/grp3">
+        <item
+            android:icon="@drawable/ic_code_black_24dp"
+            android:id="@+id/nav_about_developers"
+            android:title="About Developers" />
+
+        <item
+            android:id="@+id/nav_terms_and_condition"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Terms and Conditions" />
+
+        <item
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:id="@+id/nav_about_us"
+            android:title="About Us" />
+
+        <item
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:id="@+id/nav_feedback"
+            android:title="Feedback" />
+    </group>
+    <group android:id="@+id/grp4">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_lock_open_black_24dp"
+            android:title="Logout" />
+    </group>
+
+</menu>

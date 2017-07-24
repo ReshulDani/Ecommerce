@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NotificationActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter Notification Text below."
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="125dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextcustomNotification"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Notification"
+        android:id="@+id/button"
+        android:onClick="onClickSend"
+        android:layout_below="@+id/editTextcustomNotification"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Year BTech"
+        android:id="@+id/checkBox_fy_btech"
+        android:checked="false"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Year BTech"
+        android:id="@+id/checkBox_sy_btech"
+        android:layout_below="@+id/checkBox_fy_btech"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Year"
+        android:id="@+id/checkBox_ty"
+        android:layout_below="@+id/checkBox_sy_btech"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fourth Year"
+        android:id="@+id/checkBox_btech"
+        android:layout_below="@+id/checkBox_ty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer"
+        android:id="@+id/checkBox_cs"
+        android:checked="false"
+        android:layout_above="@+id/checkBox_it"
+        android:layout_alignLeft="@+id/checkBox_it"
+        android:layout_alignStart="@+id/checkBox_it" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT"
+        android:id="@+id/checkBox_it"
+        android:checked="false"
+        android:layout_below="@+id/checkBox_fy_btech"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanical"
+        android:id="@+id/checkBox_mech"
+        android:layout_below="@+id/checkBox_it"
+        android:layout_alignLeft="@+id/checkBox_it"
+        android:layout_alignStart="@+id/checkBox_it"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTC"
+        android:id="@+id/checkBox_entc"
+        android:layout_below="@+id/checkBox_mech"
+        android:layout_alignLeft="@+id/checkBox_mech"
+        android:layout_alignStart="@+id/checkBox_mech"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Production"
+        android:id="@+id/checkBox_prod"
+        android:layout_below="@+id/checkBox_entc"
+        android:layout_alignLeft="@+id/checkBox_entc"
+        android:layout_alignStart="@+id/checkBox_entc"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Civil"
+        android:id="@+id/checkBox_civil"
+        android:layout_below="@+id/checkBox_prod"
+        android:layout_alignLeft="@+id/checkBox_prod"
+        android:layout_alignStart="@+id/checkBox_prod"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planning"
+        android:id="@+id/checkBox_planning"
+        android:layout_below="@+id/checkBox_civil"
+        android:layout_alignLeft="@+id/checkBox_civil"
+        android:layout_alignStart="@+id/checkBox_civil"
+        android:checked="false" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Branch"
+        android:id="@+id/textView4"
+            android:layout_below="@+id/button"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="31dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instrumentation"
+        android:id="@+id/checkBox_instru"
+        android:layout_below="@+id/checkBox_planning"
+        android:layout_alignLeft="@+id/checkBox_planning"
+        android:layout_alignStart="@+id/checkBox_planning"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Year MTech"
+        android:id="@+id/checkBox_fy_mtech"
+        android:layout_alignTop="@+id/checkBox_prod"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Year MTech"
+        android:id="@+id/checkBox_sy_mtech"
+        android:layout_alignBottom="@+id/checkBox_civil"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrical"
+        android:id="@+id/checkBox_electrical"
+        android:checked="false"
+        android:layout_below="@+id/checkBox_instru"
+        android:layout_alignLeft="@+id/checkBox_instru"
+        android:layout_alignStart="@+id/checkBox_instru" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Select Year"
+            android:id="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView4" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:id="@+id/checkBox_all"
+            android:layout_below="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Block"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/checkBox_planning"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/checkBox_block_a"
+            android:checked="false"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:id="@+id/checkBox_block_b"
+            android:layout_below="@+id/checkBox_block_a"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/checkBox_block_c"
+            android:layout_below="@+id/checkBox_block_b"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/checkBox_block_d"
+            android:layout_below="@+id/checkBox_block_c"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:id="@+id/checkBox_block_e"
+            android:layout_below="@+id/checkBox_block_d"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/checkBox_block_f"
+            android:layout_below="@+id/checkBox_block_e"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:id="@+id/checkBox_block_g"
+            android:layout_below="@+id/checkBox_block_f"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:id="@+id/checkBox_block_h"
+            android:layout_below="@+id/checkBox_block_g"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:id="@+id/checkBox_block_i"
+            android:layout_below="@+id/checkBox_block_h"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/checkBox_block_j"
+            android:layout_below="@+id/checkBox_block_i"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GHB"
+            android:id="@+id/checkBox_block_ghb"
+            android:layout_below="@+id/checkBox_block_j"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

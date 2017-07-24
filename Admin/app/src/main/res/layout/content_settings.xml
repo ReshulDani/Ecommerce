@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.skyline.kattaadminapp.Settings">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:id="@+id/cardView1"
+            android:elevation="3dp"
+            android:layout_alignParentTop="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="wrap_content">
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Katta open/closed"
+                    android:id="@+id/katta_switch" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery available/unavailable"
+                    android:layout_below="@id/katta_switch"
+                    android:id="@+id/delivery_switch" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="3dp"
+            android:elevation="4dp"
+            android:id="@+id/cardView2"
+            android:layout_below="@+id/cardView1"
+            app:cardUseCompatPadding="true"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Minimum Total for Delivery"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/minTotalforDelivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+
+                        android:inputType="numberSigned" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_minTotalforDelivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@android:color/white"
+                        android:src="@drawable/ic_create_black_24dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/linearLayout2"
+                    android:text="Minimum total for free delivery"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView20"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/minTotalforFreeDelivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+
+                        android:inputType="numberSigned" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_minTotalforFreeDelivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@android:color/white"
+                        android:src="@drawable/ic_create_black_24dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/linearLayout3"
+                    android:text="Delivery Charge"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayout4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/textView15"
+                                    android:layout_marginBottom="20dp"
+                                    android:orientation="horizontal">
+
+                                    <EditText
+                                        android:id="@+id/deliveryCharge"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:ems="10"
+
+                                        android:inputType="numberSigned" />
+
+                                    <ImageButton
+                                        android:id="@+id/imageButton_deliveryCharge"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight=".1"
+                                        android:background="@android:color/white"
+                                        android:src="@drawable/ic_create_black_24dp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/linearLayout4"
+                                    android:text="Pick up Charge"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayout5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/textView22"
+                                    android:orientation="horizontal">
+
+                                    <EditText
+                                        android:id="@+id/pickUpCharge"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:ems="10"
+
+                                        android:inputType="numberSigned" />
+
+                                    <ImageButton
+                                        android:id="@+id/imageButton_pickUpCharge"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight=".1"
+                                        android:background="@android:color/white"
+                                        android:src="@drawable/ic_create_black_24dp" />
+                                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/cardView2"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="onClickConfirm"
+            android:text="Confirm"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+        </ScrollView>
